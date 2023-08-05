@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: Arial, Helvetica, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.bg {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/section1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5; /* Adjust the alpha (0.5 in this case) to set the opacity */
+  z-index: -1;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background: rgba(182, 179, 179, 0.2);
+}
+
+.logo {
+  width: 218px;
+  height: 57px;
+  margin: 23px 40px 24px 25px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.nav-items {
+  color: #121212;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 45px 20px 45px 15px;
+  text-decoration: none;
+}
+
+.btn1 {
+  width: 177px;
+  height: 40px;
+  flex-shrink: 0;
+  background-color: #ffff;
+  border: none;
+  border-radius: 10px;
+  background: #d66233;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 30px 10px 35px 230px;
+}
+
+.btn2 {
+  width: 177px;
+  height: 40px;
+  background-color: #ffff;
+  border: none;
+  border-radius: 10px;
+  background: #d66233;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 30px 25px 35px 0px;
+}
+.btn {
+  width: 138px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #d66233;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn:hover{
+  width: 138px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #202020;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.image-with-text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#africanfaces {
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.header1 {
+  display: flex; /* Vertically center the content */
+  flex-direction: column;
+  color: #404e57;
+
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 187px;
+  margin-right: 0px;
+  margin-left: 40px;
+  width: 55%;
+}
+
+.caption {
+  display: flex;
+  color: #404e57;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
