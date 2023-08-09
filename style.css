@@ -257,7 +257,8 @@
 
 #womanstats {
   margin: 0, 0, 5em, 3em;
-  padding: 3em 3em 3em 3em;
+  padding: 4em 4em 4em 4em;
+  
 }
 
 .section4-header {
@@ -407,4 +408,40 @@ li {
 .woman2 {
   height: 30.5em;
   margin: 6.5em 0em 2em 0em;
+}
+
+
+.section7-header{
+    display: flex;
+justify-content: center;
+margin: 2em 0 0 0;
+color: #404E57;
+/* font-family: Lato; */
+font-size: 35px;
+font-style: normal;
+font-weight: 800;
+line-height: 140.023%;
+}
+
+
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 2em 1em 2em 1em;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+card-container {
+  padding: 2px 16px;
+}
+
+.card-img{
+    width: 336.926px;
+height: 264.487px;
+flex-shrink: 0;
 }
