@@ -475,6 +475,7 @@ line-height: 140.023%;
 
 card-container {
   padding: 2px 16px;
+  justify-content: center;
 }
 
 .card-img{
@@ -488,4 +489,8 @@ flex-shrink: 0;
   width: 100%;
   padding: 0.8em;
   border-radius: 0px 0px 15px 15px;
+}
+.card-caption{
+  text-align: center;
+  margin: 1em;
 }
