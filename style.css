@@ -412,6 +412,11 @@ li {
 
 
 
+
+
+
+
+/* Section 7 */
 .section7 {
   position: relative;
   display: flex;
@@ -494,3 +499,4 @@ flex-shrink: 0;
   text-align: center;
   margin: 1em;
 }
+/* Section 7 ends */
