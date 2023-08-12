@@ -258,7 +258,6 @@
 #womanstats {
   margin: 0, 0, 5em, 3em;
   padding: 4em 4em 4em 4em;
-  
 }
 
 .section4-header {
@@ -332,7 +331,7 @@
   padding-top: 1em;
 }
 
-.card {
+.service-card {
   width: 398px;
   height: 443px;
 
@@ -410,93 +409,116 @@ li {
   margin: 6.5em 0em 2em 0em;
 }
 
-
-
-
-
-
-
 /* Section 7 */
-.section7 {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  background-image: url("images/section7bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
-  max-height: 40em;
-  z-index: 3;
-  
-}
 
-.section7::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.98;
-  background: rgba(187, 186, 186, 0.267); /* Adjust the alpha (0.5 in this case) to set the opacity */
-  background-size: contain;
+
+
+.section7{
+    padding: 5em 0 5em 0;
+     height: 40em;
+    
 }
 
 
 .section7-header{
-    display: flex;
-justify-content: center;
-margin: 2em 0 0 0;
-color: #404E57;
-/* font-family: Lato; */
-font-size: 35px;
-font-style: normal;
-font-weight: 800;
-line-height: 140.023%;
+    text-align: center;
+    font-size: 40px;
+    padding: 0em 0 1em 0;
+ 
 }
-
-
-.section7-cards {
+.section7main {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
-  z-index: 1;
-  padding: 3em 0 4em 0;
+ 
+  
 }
-
 
 .card1 {
-  box-shadow: 0 4px 8px 0 rgba(170, 170, 170, 0.2);
-  transition: 0.3s;
-  margin: 2em 1em 2em 1em;
-  border-radius: 15px 15px 15px 15px;
-  z-index: 1;
-}
-
-.card1:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-card-container {
-  padding: 2px 16px;
-  justify-content: center;
-}
-
-.card-img{
-    width: 336.926px;
-height: 264.487px;
-flex-shrink: 0;
-}
-
-.card-btn{
-  background-color: #d66233;
-  width: 100%;
-  padding: 0.8em;
-  border-radius: 0px 0px 15px 15px;
-}
-.card-caption{
   text-align: center;
-  margin: 1em;
+  width: 336px;
+ 
+  position: relative;
+  border-radius: 20px 20px 20px 20px;
+  background: #fff;
+  margin: 1em 1em 1em 1em;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-/* Section 7 ends */
+
+.card-img-top {
+  width: 336px;
+  height: 264.487px;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+}
+
+.card-title {
+  padding: 1em 0 1em 0;
+}
+
+.custom-tooltip1 {
+  text-align: left;
+  display: none;
+  position: absolute;
+  bottom: -300px; /* Adjust the distance from the card */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  width: 20em;
+  z-index: 4;
+}
+
+.custom-tooltip {
+  text-align: left;
+  display: none;
+  position: absolute;
+  bottom: -470px; /* Adjust the distance from the card */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  width: 20em;
+  z-index: 4;
+}
+
+.custom-tooltip2 {
+  text-align: left;
+  display: none;
+  position: absolute;
+  bottom: -400px; /* Adjust the distance from the card */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  width: 20em;
+  z-index: 4;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  top: -15px; /* Position above the arrow */
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent #333 transparent; /* Match the tooltip background color */
+}
+
+.card1:hover .custom-tooltip {
+  display: block;
+  box-shadow: 0px 4px 4px 0px rgba(66, 1, 1, 0.25);
+}
+.card1:hover .custom-tooltip1 {
+  display: block;
+  box-shadow: 0px 4px 4px 0px rgba(66, 1, 1, 0.25);
+}
+.card1:hover .custom-tooltip2 {
+  display: block;
+  box-shadow: 0px 4px 4px 0px rgba(66, 1, 1, 0.25);
+}
