@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -412,40 +411,32 @@ li {
 
 /* Section 7 */
 
-
-
-.section7{
-    padding: 5em 0 5em 0;
-     height: 40em;
-     background-color: #f5f5f5;
-    
+.section7 {
+  padding: 5em 0 5em 0;
+  height: 40em;
+  background-color: #e6e6e6;
 }
 
-
-.section7-header{
-    text-align: center;
-    font-size: 40px;
-    padding: 0em 0 1em 0;
- 
+.section7-header {
+  text-align: center;
+  font-size: 40px;
+  padding: 0em 0 1em 0;
 }
 .section7main {
   display: flex;
   justify-content: center;
- 
-  
 }
 
 .card1 {
   text-align: center;
   width: 336px;
- 
+
   position: relative;
   border-radius: 20px 20px 20px 20px;
   background: #fff;
   margin: 1em 1em 1em 1em;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-
 
 .card-img-top {
   width: 336px;
@@ -517,7 +508,7 @@ li {
   display: block;
   box-shadow: 0px 4px 4px 0px rgba(66, 1, 1, 0.25);
 }
-.card1:hover{
+.card1:hover {
   display: block;
   box-shadow: 4px 4px 4px 2px rgba(133, 70, 70, 0.45);
 }
@@ -530,54 +521,61 @@ li {
   box-shadow: 0px 4px 4px 0px rgba(66, 1, 1, 0.25);
 }
 
-
-.section8{
+.section8 {
   height: 40em;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
+  padding: 5em 0 0 5em;
+  background-color: #ffffff;
 }
 
-.team-card{
+.test {
+  background-color: #ff3030;
+  /* margin-top: 40px; */
 
-
-margin: 2em 1em 2em 1em;
-
-width: 300px;
-box-shadow: 2px 1px 2px 1px #3030301a;
-border-radius: 0px 0px 15px 15px;
-max-height:30em;
-  
 }
 
-.team-img{
+.team-card {
+  margin: 2em 1em 2em 1em;
+  background-color: #ffffff;
+  width: 300px;
+  box-shadow: 2px 1px 2px 1px #3030301a;
+  border-radius: 0px 0px 15px 15px;
+  max-height: 30em;
+}
+
+.image-bg {
+  background-color: #303030;
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+}
+
+.team-img {
   display: flex;
   justify-content: center;
   width: 198.375px;
-height: 285.303px;
-
+  height: 285.303px;
+  position: ;
 }
 
-.bottomleft{
-  background-color: #303030;
+.bottomleft {
   color: #fff;
-  margin-top: -30px;
+
   width: 300px;
   padding: 5px 0 5px 0;
-  z-index: 5;
 }
 
-.team-info{
-width: 300px;
-padding: 10px 10px 10px 10px;
+.team-info {
+  width: 300px;
+  padding: 10px 10px 10px 10px;
 }
 
-.learn-more-btn{
+.learn-more-btn {
   align-items: center;
   background-color: #d66233;
   border-radius: 0px 0px 15px 15px;
   width: 300px;
   padding: 1em 0 1em 0;
-
 }
