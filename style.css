@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -527,4 +528,56 @@ li {
 .card1:hover .custom-tooltip2 {
   display: block;
   box-shadow: 0px 4px 4px 0px rgba(66, 1, 1, 0.25);
+}
+
+
+.section8{
+  height: 40em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.team-card{
+
+
+margin: 2em 1em 2em 1em;
+
+width: 300px;
+box-shadow: 2px 1px 2px 1px #3030301a;
+border-radius: 0px 0px 15px 15px;
+max-height:30em;
+  
+}
+
+.team-img{
+  display: flex;
+  justify-content: center;
+  width: 198.375px;
+height: 285.303px;
+
+}
+
+.bottomleft{
+  background-color: #303030;
+  color: #fff;
+  margin-top: -30px;
+  width: 300px;
+  padding: 5px 0 5px 0;
+  z-index: 5;
+}
+
+.team-info{
+width: 300px;
+
+}
+
+.learn-more-btn{
+  align-items: center;
+  background-color: #d66233;
+  border-radius: 0px 0px 15px 15px;
+  width: 300px;
+  padding: 1em 0 1em 0;
+
 }
