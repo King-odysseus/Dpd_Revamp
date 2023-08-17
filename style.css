@@ -415,6 +415,9 @@ li {
   padding: 5em 0 5em 0;
   height: 40em;
   background-color: #e6e6e6;
+
+font-style: normal;
+font-weight: 500;
 }
 
 .section7-header {
@@ -528,7 +531,7 @@ li {
   padding: 2em 0 0 0;
   font-size: 50px;
 font-style: normal;
-font-weight: 800;
+font-weight: 600;
 }
 
 .section8 {
@@ -542,7 +545,7 @@ font-weight: 800;
 
 .name-label {
   padding: 1em 0 1em 1em;
-  opacity: 50;
+  opacity: 0.73;
   background: linear-gradient(
     90deg,
     #333 1%,
@@ -561,7 +564,7 @@ font-weight: 800;
 }
 
 .team-card:hover{
-     box-shadow: 10px 10px 10px 10px #9191917a;
+     box-shadow: 5px 5px 5px 5px #9191917a;
      border: none;
 }
 
