@@ -9,17 +9,17 @@
 //   customTooltip.style.display = "none";
 // });
 
+const accordionItems = document.querySelectorAll('.accordion-item');
 
-var acc = document.getElementsByClassName("accordion");
-var i;
+accordionItems.forEach(item => {
+  const header = item.querySelector('.accordion-header');
+  const content = item.querySelector('.accordion-content');
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
+  header.addEventListener('click', () => {
+    if (content.style.display === 'none') {
+      content.style.display = 'block';
     } else {
-      panel.style.display = "block";
+      content.style.display = 'none';
     }
   });
+});
