@@ -613,7 +613,7 @@ footer {
   height: 545px;
   background: #404E57;
   top: 5078px;
-  padding: 10%;
+  padding: 8em 3em;
   margin-top: 130px;
   display: flex;
   flex-direction: column;
@@ -626,6 +626,7 @@ footer {
 }
 .footer-2 {
   width: 100%;
+ 
 }
 .logo-f {
   width: 165px;
@@ -705,7 +706,7 @@ footer {
 .infographics{
   display: flex;
   flex-direction: row;
-  padding: 5em 3em 3em 3em;
+  padding: 6em 3em 3em 3em;
 }
 .accordion-header {
   padding: 10px;
@@ -718,13 +719,11 @@ footer {
 
 }
 
-
-
 .accordion-h3{
   
 align-items: center;
   color: #DA6329;
-text-align: justify;
+text-align: left;
 font-size: 22px;
 font-style: normal;
 font-weight: 800;
@@ -757,6 +756,33 @@ cursor: pointer;
 
 
 .accordion-content {
-  padding: 10px;
+  padding: 10px 1em 1em 2em;
   display: none;
+}
+
+
+/* Thematic Areas Cards */
+
+
+
+h1{
+  text-align: center;
+ 
+
+
+ 
+}
+
+.thematic-cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+   padding: 2em 2em 2em;
+}
+
+.card{
+  margin: 1em;
+  border: none;
+  box-shadow: 5px 5px 5px 5px #9191917a;
 }
