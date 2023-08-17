@@ -699,13 +699,22 @@ footer {
   ); /* Adjust the alpha (0.5 in this case) to set the opacity */
 }
 
+.map{
+  padding: 1em 3em 1em 2em;
+}
+.infographics{
+  display: flex;
+  flex-direction: row;
+  padding: 5em 3em 3em 3em;
+}
 .accordion-header {
   padding: 10px;
-  background-color: #ddd;
+  background-color: #ffffff;
   display: flex;
   flex-direction: row;
   align-items: center;
   cursor: pointer;
+
 
 }
 
@@ -736,13 +745,14 @@ cursor: pointer;
 
 
 .accordion {
-  width: 70%;
+  width: 60%;
 }
 
 .accordion-item {
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   margin-bottom: 5px;
   overflow: hidden;
+    box-shadow: 5px 5px 5px 5px rgba(156, 156, 156, 0.3);
 }
 
 
