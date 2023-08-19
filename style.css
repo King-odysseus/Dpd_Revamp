@@ -66,7 +66,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin: 45px 20px 45px 15px;
+  margin: 45px 15px 45px 15px;
   text-decoration: none;
   z-index: 1;
 }
@@ -86,7 +86,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 30px 10px 35px 230px;
+  margin: 30px 10px 35px 125px;
 }
 
 .btn2 {
@@ -142,6 +142,7 @@
   font-weight: 400;
   line-height: normal;
 }
+
 .btn:hover {
   width: 138px;
   height: 48px;
@@ -179,14 +180,15 @@
   margin-top: 4em;
   margin-right: 0px;
   margin-left: 1em;
+
   width: 55%;
 }
 
 .caption {
   display: flex;
   color: #404e57;
-
-  font-size: 20px;
+padding: 1em 0 1em 0;
+  font-size: 23px;
   font-style: normal;
   font-weight: 400;
 }
@@ -238,10 +240,13 @@
   position: relative;
   z-index: 1;
   max-height: 37em;
-  background-color: hwb(17 22% 18%);
+  background-color: rgb(209, 99, 56);
   padding-top: 1em;
 }
 
+.imgstats{
+  width: 40%;
+}
 .section3-header {
   display: flex; /* Vertically center the content */
   flex-direction: column;
@@ -249,7 +254,7 @@
   color: #ffffff;
   text-align: left;
   font-weight: 500;
-  padding: 4em 0em 0em 2em;
+  padding: 4em 2em 0em 3em;
   /* margin-bottom: 1em; */
 
   z-index: 1;
@@ -258,6 +263,7 @@
 #womanstats {
   margin: 0, 0, 5em, 3em;
   padding: 4em 4em 4em 4em;
+  width: 40em;
 }
 
 .section4-header {
@@ -267,12 +273,11 @@
   color: #ffffff;
   text-align: left;
   height: 32em;
-
   font-style: normal;
   font-weight: 500;
   padding: 4em 1em 2em 2em;
   margin-bottom: 1em;
-  width: 70%;
+  width: 80%;
   z-index: 1;
 }
 
@@ -280,7 +285,7 @@
   display: flex;
   color: #ffffff;
 
-  color: #fff;
+  
   text-align: justify;
   font-size: 20px;
   font-style: normal;
@@ -289,7 +294,34 @@
   padding: 1em 3em 0 0;
   z-index: 1;
 }
+.highlight{
+  color: #da6329;
+  display: inline;
+}
 
+.btnstats {
+  width: 138px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #d66233;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 1em;
+  margin-left: 6em;
+}
+.btnstats:hover {
+  width: 138px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #303030;
+  color: #ffffff;
+}
 .section4 {
   position: relative;
   display: flex;
@@ -310,12 +342,7 @@
   width: 100%;
   height: 100%;
   opacity: 0.95;
-  background: rgba(
-    146,
-    146,
-    146,
-    0.95
-  ); /* Adjust the alpha (0.5 in this case) to set the opacity */
+  background: rgba(36, 36, 36, 0.95); /* Adjust the alpha (0.5 in this case) to set the opacity */
   background-size: contain;
 }
 
@@ -333,18 +360,22 @@
 
 .service-card {
   width: 398px;
-  height: 443px;
+  height: 450px;
 
-  padding: 2em 2em 2em 2em;
-  box-shadow: 2px 4px 7px 5px rgba(176, 176, 176, 0.25);
-  margin: 2em 2em 2em 2em;
+  padding: 2em 2em 5em 2em;
+ box-shadow: 5px 5px 10px 10px #6868683d;
+  margin: 5em 2em 5em 2em;
 }
-
+.service-card:hover{
+  box-shadow: 5px 5px 10px 10px #da64293d;
+}
 li {
   /* 	display: block; */
   list-style: square;
   list-style-position: outside;
-  padding-top: 0.7em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 17px;
 }
 
 .section6 {
@@ -355,7 +386,7 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
-  max-height: 37em;
+  max-height: 35em;
   z-index: 3;
 }
 
@@ -367,12 +398,7 @@ li {
   width: 100%;
   height: 100%;
   opacity: 0.95;
-  background: rgba(
-    112,
-    112,
-    112,
-    0.95
-  ); /* Adjust the alpha (0.5 in this case) to set the opacity */
+  background: rgba(36, 36, 36, 0.95); /* Adjust the alpha (0.5 in this case) to set the opacity */
   background-size: contain;
 }
 
@@ -385,9 +411,9 @@ li {
   font-size: 2em;
   font-style: normal;
   font-weight: 500;
-  padding: 4em 1em 2em 2em;
-  margin-bottom: 1em;
-  width: 70%;
+  margin: 3em 0em 2em 2em;
+  
+  width: 68%;
 }
 
 .caption2 {
@@ -395,18 +421,19 @@ li {
   color: #ffffff;
 
   color: #fff;
-  text-align: justify;
+  text-align: left;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 140.023%;
-  padding: 0 2em 0 0;
+  padding: 1em 2em 2em 0;
   z-index: 1;
+  
 }
 
 .woman2 {
   height: 30.5em;
-  margin: 6.5em 0em 2em 0em;
+  margin: 4.5em 0em 2em 0em;
 }
 
 /* Section 7 */
@@ -542,41 +569,59 @@ li {
   background-color: #ffffff;
 }
 
+.space{
+  padding-top: 12.3em
+}
+
 .name-label {
-  padding: 1em 0 1em 1em;
-  opacity: 0.73;
-  background: linear-gradient(
-    90deg,
-    #333 1%,
-    #333 52.71%,
-    rgba(95, 115, 129, 0.288) 100%
-  );
+ color: #e6e6e6;
+  padding: 0.5em 0 1em 1em;
+  opacity: 0.98;
+ background: linear-gradient(90.18deg, rgb(30, 43, 52) -34.98%, rgb(36, 45, 54) 42.64%, rgba(31, 40, 49, 0) 90.95%);
+
 }
 
 .team-card {
-  margin: 2em 1em 2em 1em;
-  background-color: #ffffff;
-  width: 350px;
-  box-shadow: 2px 1px 2px 1px #4d49491a;
+  display: flex;
+  flex-direction: row;
+  margin: 2em 3em 2em 1em;
+  /* background-color: #ffffff; */
+  width: 300px;
+  box-shadow: 2px 5px 10px 5px #4b4b4b3d;
   border-radius: 0px 0px 15px 15px;
-  height: max-content;
+  height: 29em;
 }
 
 .team-card:hover {
-  box-shadow: 5px 5px 5px 5px #9191917a;
+    box-shadow: 5px 5px 5px 5px #da64293d;
   border: none;
 }
 
-.image-bg {
-  background-image: url("images/team1.png");
+.image-bg1 {
+  background-image: url("images/Emeka.jpg");
   background-position: center center;
-  width: 200px;
+  width:300px;
   height: 250px;
 
-  margin-left: 70px;
+ 
   background-size: cover;
 }
 
+.image-bg2 {
+  background-image: url("images/enyi.jpg");
+  background-position: center center;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+}
+
+.image-bg3 {
+  background-image: url("images/emma.jpg");
+  background-position: center center;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+}
 /* .team-img {
   display: flex;
   justify-content: center;
@@ -586,21 +631,23 @@ li {
 } */
 
 .bottomleft {
-  color: #fff;
-  font-size: 25px;
+
+  font-size: 20px;
+ 
 }
 
 .team-info {
   width: 300px;
   padding: 10px 10px 10px 10px;
+  background-color: #ffffff;
 }
 
 .learn-more-btn {
   align-items: center;
   background-color: #d66233;
   border-radius: 0px 0px 15px 15px;
-  width: 350px;
-  padding: 1em 0 1em 0;
+  width: 300px;
+  padding: .5em 0 .5em 0;
   color: #ffffff;
   font-size: 20px;
 }
@@ -729,12 +776,14 @@ footer {
 }
 
 .accordion-icon {
-  margin: 5px 5px 5px 5px;
+  margin: 20px 5px 5px 5px;
   padding: 5px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
   border-radius: 15px 15px 15px 15px;
   margin-right: 3em;
   cursor: pointer;
+  width: 50px;
+  height: 50px;
 }
 
 .accordion {
@@ -759,7 +808,13 @@ h1 {
   text-align: center;
   font-weight: 700;
   color: #da6329;
-  padding: 1em 1em;
+  padding: 2em 2em;
+}
+h1 {
+  text-align: center;
+  font-weight: 700;
+  color: #da6329;
+  padding: 2em 2em;
 }
 
 .thematic-cards {
@@ -771,7 +826,7 @@ h1 {
 }
 
 .card {
-  margin: 1em 1em 2em 1em;
+  margin: 1em 1em 5em 1em;
   border: none;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 1px 5px 20px 5px #c2c2c2a6;
@@ -796,24 +851,4 @@ h4 {
 
 .card-img {
   border-radius: 15px 15px 15px 15px;
-}
-
-
-.background-container {
-  width: 100%;
-  height: 100vh; /* Adjust as needed */
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="759" height="346" viewBox="0 0 759 346" fill="none">
-    <path
-        d="M1.47369 113.221C-6.7054 65.3689 29.2743 21.3202 77.7956 19.7822L675.853 0.825684C723.442 -0.682755 761.807 39.4556 758.151 86.9285L743.954 271.279C740.744 312.956 705.99 345.136 664.19 345.136H108.6C69.6182 345.136 36.3116 317.039 29.7438 278.615L1.47369 113.221Z"
-        fill="url(#paint0_linear_447_218)" />
-    <defs>
-        <linearGradient id="paint0_linear_447_218" x1="465.163" y1="34.0487" x2="175.43" y2="469.973"
-            gradientUnits="userSpaceOnUse">
-            <stop offset="0.26895" stop-color="#D66233" />
-            <stop offset="1" stop-color="#E1BFAF" />
-        </linearGradient>
-    </defs></svg>');
-  background-size: cover; /* or contain */
-  background-position: center;
-  background-repeat: no-repeat;
 }
