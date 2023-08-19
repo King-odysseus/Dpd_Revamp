@@ -565,7 +565,7 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 5em 0 20em 0;
+  padding: 5em 0 0em 0;
   background-color: #ffffff;
 }
 
@@ -660,7 +660,7 @@ footer {
   background: #404e57;
   top: 5078px;
   padding: 8em 3em;
-  margin-top: 130px;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -739,12 +739,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(
-    231,
-    230,
-    230,
-    0.8
-  ); /* Adjust the alpha (0.5 in this case) to set the opacity */
+  background-color: rgba(51, 51, 51, 0.8); /* Adjust the alpha (0.5 in this case) to set the opacity */
 }
 
 .map {
@@ -753,7 +748,8 @@ footer {
 .infographics {
   display: flex;
   flex-direction: row;
-  padding: 6em 3em 3em 3em;
+  padding: 10em 3em 3em 3em;
+  margin-bottom: 8em;
 }
 .accordion-header {
   padding: 10px;
@@ -810,11 +806,14 @@ h1 {
   color: #da6329;
   padding: 2em 2em;
 }
-h1 {
-  text-align: center;
+.h1-challenge {
+
+  text-align: left;
+  font-size: 35px;
   font-weight: 700;
-  color: #da6329;
-  padding: 2em 2em;
+  color: #ffffff;
+  padding: 9em 0 3em 1em;
+  width: 75%;
 }
 
 .thematic-cards {
@@ -823,6 +822,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   padding: 2em 2em 2em;
+  
 }
 
 .card {
