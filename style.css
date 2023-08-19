@@ -284,8 +284,6 @@ padding: 1em 0 1em 0;
 .caption-4 {
   display: flex;
   color: #ffffff;
-
-  
   text-align: justify;
   font-size: 20px;
   font-style: normal;
@@ -330,7 +328,7 @@ padding: 1em 0 1em 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
-  height: 37em;
+  height: 32em;
   z-index: 3;
 }
 
