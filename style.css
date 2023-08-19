@@ -364,7 +364,7 @@ padding: 1em 0 1em 0;
 
   padding: 2em 2em 5em 2em;
  box-shadow: 5px 5px 10px 10px #6868683d;
-  margin: 5em 2em 5em 2em;
+  margin: 5em 2em 10em 2em;
 }
 .service-card:hover{
   box-shadow: 5px 5px 10px 10px #da64293d;
@@ -440,7 +440,7 @@ li {
 
 .section7 {
   padding: 5em 0 5em 0;
-  height: 40em;
+  height: 42em;
   background-color: #e6e6e6;
 
   font-style: normal;
