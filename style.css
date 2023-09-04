@@ -181,7 +181,6 @@
   margin-top: 7.2em;
   margin-right: 0px;
   margin-left: 1em;
-  
 
   width: 55%;
 }
@@ -189,7 +188,7 @@
 .caption {
   display: flex;
   color: #404e57;
-padding: 1em 0 1em 0;
+  padding: 1em 0 1em 0;
   font-size: 23px;
   font-style: normal;
   font-weight: 400;
@@ -246,7 +245,7 @@ padding: 1em 0 1em 0;
   padding-top: 1em;
 }
 
-.imgstats{
+.imgstats {
   width: 40%;
 }
 .section3-header {
@@ -294,7 +293,7 @@ padding: 1em 0 1em 0;
   padding: 1em 3em 0 0;
   z-index: 1;
 }
-.highlight{
+.highlight {
   color: #da6329;
   display: inline;
 }
@@ -342,7 +341,12 @@ padding: 1em 0 1em 0;
   width: 100%;
   height: 100%;
   opacity: 0.95;
-  background: rgba(36, 36, 36, 0.95); /* Adjust the alpha (0.5 in this case) to set the opacity */
+  background: rgba(
+    36,
+    36,
+    36,
+    0.95
+  ); /* Adjust the alpha (0.5 in this case) to set the opacity */
   background-size: contain;
 }
 
@@ -363,10 +367,10 @@ padding: 1em 0 1em 0;
   height: 450px;
 
   padding: 2em 2em 5em 2em;
- box-shadow: 5px 5px 10px 10px #6868683d;
+  box-shadow: 5px 5px 10px 10px #6868683d;
   margin: 5em 2em 10em 2em;
 }
-.service-card:hover{
+.service-card:hover {
   box-shadow: 5px 5px 10px 10px #da64293d;
 }
 li {
@@ -398,7 +402,12 @@ li {
   width: 100%;
   height: 100%;
   opacity: 0.95;
-  background: rgba(36, 36, 36, 0.95); /* Adjust the alpha (0.5 in this case) to set the opacity */
+  background: rgba(
+    36,
+    36,
+    36,
+    0.95
+  ); /* Adjust the alpha (0.5 in this case) to set the opacity */
   background-size: contain;
 }
 
@@ -412,7 +421,7 @@ li {
   font-style: normal;
   font-weight: 500;
   margin: 3em 0em 2em 2em;
-  
+
   width: 68%;
 }
 
@@ -428,7 +437,6 @@ li {
   line-height: 140.023%;
   padding: 1em 2em 2em 0;
   z-index: 1;
-  
 }
 
 .woman2 {
@@ -569,16 +577,20 @@ li {
   background-color: #ffffff;
 }
 
-.space{
-  padding-top: 12.3em
+.space {
+  padding-top: 12.3em;
 }
 
 .name-label {
- color: #e6e6e6;
+  color: #e6e6e6;
   padding: 0.5em 0 1em 1em;
   opacity: 0.98;
- background: linear-gradient(90.18deg, rgb(30, 43, 52) -34.98%, rgb(36, 45, 54) 42.64%, rgba(31, 40, 49, 0) 90.95%);
-
+  background: linear-gradient(
+    90.18deg,
+    rgb(30, 43, 52) -34.98%,
+    rgb(36, 45, 54) 42.64%,
+    rgba(31, 40, 49, 0) 90.95%
+  );
 }
 
 .team-card {
@@ -593,17 +605,16 @@ li {
 }
 
 .team-card:hover {
-    box-shadow: 5px 5px 5px 5px #da64293d;
+  box-shadow: 5px 5px 5px 5px #da64293d;
   border: none;
 }
 
 .image-bg1 {
   background-image: url("images/emeka.jpg");
   background-position: center center;
-  width:300px;
+  width: 300px;
   height: 250px;
 
- 
   background-size: cover;
 }
 
@@ -631,9 +642,7 @@ li {
 } */
 
 .bottomleft {
-
   font-size: 20px;
- 
 }
 
 .team-info {
@@ -647,7 +656,7 @@ li {
   background-color: #d66233;
   border-radius: 0px 0px 15px 15px;
   width: 300px;
-  padding: .5em 0 .5em 0;
+  padding: 0.5em 0 0.5em 0;
   color: #ffffff;
   font-size: 20px;
 }
@@ -660,7 +669,7 @@ footer {
   background: #404e57;
   top: 5078px;
   padding: 8em 3em;
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -739,7 +748,12 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(51, 51, 51, 0.8); /* Adjust the alpha (0.5 in this case) to set the opacity */
+  background-color: rgba(
+    51,
+    51,
+    51,
+    0.8
+  ); /* Adjust the alpha (0.5 in this case) to set the opacity */
 }
 
 .map {
@@ -807,7 +821,6 @@ h1 {
   padding: 2em 2em;
 }
 .h1-challenge {
-
   text-align: left;
   font-size: 35px;
   font-weight: 700;
@@ -821,19 +834,19 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 2em 2em 2em;
-  
+  padding: 2em 2em 2em 2em;
+  margin: 1em 1em 1em 1em;
 }
 
 .card {
-  margin: 1em 1em 5em 1em;
+  margin: 1em 2em 5em 2em;
   border: none;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 1px 5px 20px 5px #c2c2c2a6;
   max-width: 20em;
 }
 .card:hover {
-  margin: 1em 1em 2em 1em;
+  margin: 1em 2em 5em 2em;
   border: none;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 1px 5px 10px 10px #da64293d;
@@ -853,23 +866,39 @@ h4 {
   border-radius: 15px 15px 15px 15px;
 }
 
-
 /* Teams */
 
-
-
-
-.space2{
-  padding-top: 12.3em
+.h1-teams {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 1em 1em;
+  font-size: 4em;
+}
+.teamwrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2em 2em 2em 2em;
 }
 
-.name-label2{
- color: #e6e6e6;
+.space2 {
+  padding-top: 12.3em;
+}
+
+.name-label2 {
+  color: #e6e6e6;
   padding: 0.5em 0 1em 1em;
   opacity: 0.98;
- background: linear-gradient(90.18deg, rgb(30, 43, 52) -34.98%, rgb(36, 45, 54) 42.64%, rgba(31, 40, 49, 0) 90.95%);
- border-radius: 1em 1em 1em 1em;
-
+  background: linear-gradient(
+    90.18deg,
+    rgb(30, 43, 52) -34.98%,
+    rgb(36, 45, 54) 42.64%,
+    rgba(31, 40, 49, 0) 90.95%
+  );
+  border-radius: 1em 1em 1em 1em;
 }
 
 .team-card2 {
@@ -880,28 +909,58 @@ h4 {
   width: 300px;
   box-shadow: 2px 5px 10px 5px #4b4b4b3d;
   /* border-radius: 0px 0px 15px 15px; */
-  height: 15em;
+  height: 280px;
   margin-bottom: 4em;
   border-radius: 1em 1em 1em 1em;
 }
 
 .team-card2:hover {
-    box-shadow: 5px 5px 5px 5px #da64293d;
+  box-shadow: 5px 5px 5px 5px #da64293d;
   border: none;
 }
 
 .image-bg2 {
   background-image: url("images/emeka.jpg");
   background-position: center center;
-  width:300px;
-  height: 250px;
+  width: 300px;
+  height: 280px;
   border-radius: 1em 1em 1em 1em;
 
   background-size: cover;
 }
 
 .bottomleft2 {
-
   font-size: 20px;
- 
+}
+
+
+
+/* Style for tab buttons */
+.tab-buttons {
+  display: flex;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.tab-button:hover {
+  background-color: #ddd;
+}
+
+/* Style for tab content */
+.tab-content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+/* Show the active tab content */
+.tab-content.active {
+  display: block;
 }
