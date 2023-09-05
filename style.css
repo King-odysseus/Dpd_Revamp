@@ -921,23 +921,7 @@ h4 {
   border-radius: 1em 1em 1em 1em;
 }
 
-.team-card2:hover {
-  box-shadow: 5px 5px 5px 5px #da64293d;
-  border: none;
-}
 
-.team-card2-consultants {
-  display: flex;
-  flex-direction: row;
-  margin-right: 15px;
-  /* background-color: #ffffff; */
-  width: 300px;
-  box-shadow: 2px 5px 10px 5px #4b4b4b3d;
-  /* border-radius: 0px 0px 15px 15px; */
-  height: 280px;
-  margin-bottom: 4em;
-  border-radius: 1em 1em 1em 1em;
-}
 
 .team-card2-consultants:hover {
   box-shadow: 5px 5px 5px 5px #da64293d;
