@@ -939,7 +939,9 @@ h4 {
 }
 
 .bottomleft2 {
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 3px;
 }
 
 /* Style for tab buttons */
@@ -955,8 +957,11 @@ h4 {
 
 .tab-buttons {
   display: flex;
+  justify-content: center;
   border: none;
   margin: 15px 15px;
+  padding: 10px 10px 10px 10px;
+  color: #d66233;
 
 }
 
