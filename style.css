@@ -873,14 +873,14 @@ h4 {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  margin: 15px ;
+  margin: 15px;
   font-size: 2em;
 }
 .teamwrap {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   margin: 2em 2em 2em 2em;
 }
 .teamwrap-consultants {
@@ -897,7 +897,7 @@ h4 {
 
 .name-label2 {
   color: #e6e6e6;
-  padding: 0.5em 0 1em 1em;
+  padding: 0.5em 0 1.2em 1em;
   opacity: 0.98;
   background: linear-gradient(
     90.18deg,
@@ -916,12 +916,10 @@ h4 {
   width: 300px;
   box-shadow: 2px 5px 10px 5px #4b4b4b3d;
   /* border-radius: 0px 0px 15px 15px; */
-  height: 280px;
+  height: 300px;
   margin-bottom: 4em;
   border-radius: 1em 1em 1em 1em;
 }
-
-
 
 .team-card2-consultants:hover {
   box-shadow: 5px 5px 5px 5px #da64293d;
@@ -932,16 +930,27 @@ h4 {
   background-image: url("images/emeka.jpg");
   background-position: center center;
   width: 300px;
-  height: 280px;
+  height: 300px;
   border-radius: 1em 1em 1em 1em;
+  padding-top: 10px;
+  background-size: cover;
+}
+
+.team-bg {
+  background-image: url("images/avatar.png");
+  background-position: center center;
+  width: 300px;
+  height: 300px;
+  
+  border-radius: 1em 0em 1em 1em;
 
   background-size: cover;
 }
 
 .bottomleft2 {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
-  padding-bottom: 3px;
+ 
 }
 
 /* Style for tab buttons */
@@ -962,7 +971,6 @@ h4 {
   margin: 15px 15px;
   padding: 10px 10px 10px 10px;
   color: #d66233;
-
 }
 
 .tab-button {
