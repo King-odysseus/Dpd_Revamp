@@ -873,10 +873,17 @@ h4 {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  margin: 1em 1em;
-  font-size: 4em;
+  margin: 15px ;
+  font-size: 2em;
 }
 .teamwrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2em 2em 2em 2em;
+}
+.teamwrap-consultants {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -919,6 +926,24 @@ h4 {
   border: none;
 }
 
+.team-card2-consultants {
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
+  /* background-color: #ffffff; */
+  width: 300px;
+  box-shadow: 2px 5px 10px 5px #4b4b4b3d;
+  /* border-radius: 0px 0px 15px 15px; */
+  height: 280px;
+  margin-bottom: 4em;
+  border-radius: 1em 1em 1em 1em;
+}
+
+.team-card2-consultants:hover {
+  box-shadow: 5px 5px 5px 5px #da64293d;
+  border: none;
+}
+
 .image-bg2 {
   background-image: url("images/emeka.jpg");
   background-position: center center;
@@ -933,11 +958,22 @@ h4 {
   font-size: 20px;
 }
 
-
-
 /* Style for tab buttons */
+
+.tab-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 1em;
+  margin-left: 1em;
+  border: none;
+}
+
 .tab-buttons {
   display: flex;
+  border: none;
+  margin: 15px 15px;
+
 }
 
 .tab-button {
@@ -957,7 +993,8 @@ h4 {
 .tab-content {
   display: none;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: none;
+  margin-bottom: 2em;
 }
 
 /* Show the active tab content */

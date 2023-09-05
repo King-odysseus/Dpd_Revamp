@@ -2,284 +2,521 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teams</title>
-    <link rel="shortcut icon" type="image/png" href="images\favicon.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Teams</title>
+        <link rel="shortcut icon" type="image/png" href="images\favicon.png">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-</head>
+    </head>
 
-<body>
-    <!-- Nav Bar Begins -->
-    <nav class="nav">
-        <a href="index.html"><img class="logo" src="images\logo.png" alt="Logo" class="logo"></a>
-        <a href="The-challenge.html" class="nav-items">The Challenge</a>
-        <a href="Thematic-areas.html" class="nav-items">Thematic Areas</a>
-        <a href="teams.html" class="nav-items">Teams</a>
-        <a href="https://medium.com/@Dpdonline.ng" class="nav-items">Blog</a>
-        <div class="callbtn"></div>
-        <a href="https://platform.dpdonline.ng/auth/signup-consultant"> <button class="btn1">Become a
-                consultant</button></a>
-        <a href="https://platform.dpdonline.ng"><button class="btn2">Hire Talent</button></a>
+    <body>
+        <!-- Nav Bar Begins -->
+        <nav class="nav">
+            <a href="index.html"><img class="logo" src="images\logo.png"
+                    alt="Logo" class="logo"></a>
+            <a href="The-challenge.html" class="nav-items">The Challenge</a>
+            <a href="Thematic-areas.html" class="nav-items">Thematic Areas</a>
+            <a href="teams.html" class="nav-items">Teams</a>
+            <a href="https://medium.com/@Dpdonline.ng" class="nav-items">Blog</a>
+            <div class="callbtn"></div>
+            <a href="https://platform.dpdonline.ng/auth/signup-consultant">
+                <button class="btn1">Become a
+                    consultant</button></a>
+            <a href="https://platform.dpdonline.ng"><button class="btn2">Hire
+                    Talent</button></a>
 
-    </nav>
-    <!-- Nav Bar Ends -->
+        </nav>
+        <!-- Nav Bar Ends -->
 
-
-   
-
-
-
-
-
-</div>
-
-
-<div class="tab-container">
-    <div class="tab-buttons">
-        <button class="tab-button" onclick="openTab(event, 'tab1')">Tab 1</button>
-        <button class="tab-button" onclick="openTab(event, 'tab2')">Tab 2</button>
-        <button class="tab-button" onclick="openTab(event, 'tab3')">Tab 3</button>
     </div>
-    <div id="tab1" class="tab-content">
-        <div class="h1-teams">
-            Team
+
+    <div class="tab-container">
+        <div>
+            <div class="tab-buttons">
+                <button class="tab-button" onclick="openTab(event, 'tab1')">Consultants</button>
+                <button class="tab-button" onclick="openTab(event, 'tab2')">Team</button>
+                <button class="tab-button" onclick="openTab(event, 'tab3')">Management</button>
+                <button class="tab-button" onclick="openTab(event, 'tab4')">Advisory
+                    Board</button>
             </div>
-    
-    <div class="teamwrap">
-    
-        <div class="team-card2">
-    
-            <div class="image-bg2">
-            <div class="space"></div>
-            <div class="name-label2">
-            <div class="bottomleft2">Vincent
-     </div>
-      
-      <div class="bottomleft2" style="color: #da6329 ;">Team Lead</div>
+
+            <div id="tab1" class="tab-content">
+
+                <div class="h1-teams">
+                    Consultant
                 </div>
-    
-                <!-- <div class="team-info">Thought Leader in the Healthcare and International Development space with over a
-                    decade of
-                    experience in Clinical
-                    practice, Health Systems consulting, Development programming and Entrepreneurship in Africa and
-                    Europe.</div> -->
-                <!-- <div><a href="https://platform.dpdonline.ng"><button class="learn-more-btn">View consultant</button></a> -->
-                </div>
-            </div>
-    
-        <div class="team-card2">
-    
-            <div class="image-bg2">
-                <div class="space"></div>
-                <div class="name-label2">
-                    <div class="bottomleft2">Muna</div>
-      
-                     <div class="bottomleft2" style="color: #da6329 ;">Analyst</div>
-                </div>
-    
-                <!-- <div class="team-info">Thought Leader in the Healthcare and International Development space with over a
-                    decade of
-                    experience in Clinical
-                    practice, Health Systems consulting, Development programming and Entrepreneurship in Africa and
-                    Europe.</div> -->
-                <!-- <div><a href="https://platform.dpdonline.ng"><button class="learn-more-btn">View consultant</button></a> -->
-                </div>
-         </div>
-    
-        <div class="team-card2">
-    
-            <div class="image-bg2">
-                <div class="space"></div>
-                <div class="name-label2">
-                    <div class="bottomleft2">Hyeini</div>
-      
-      <div class="bottomleft2" style="color: #da6329 ;">Associate</div>
-                </div>
-    
-                <!-- <div class="team-info">Thought Leader in the Healthcare and International Development space with over a
-                    decade of
-                    experience in Clinical
-                    practice, Health Systems consulting, Development programming and Entrepreneurship in Africa and
-                    Europe.</div> -->
-                <!-- <div><a href="https://platform.dpdonline.ng"><button class="learn-more-btn">View consultant</button></a> -->
-                </div>
-        </div>
-       
-        <div class="team-card2">
-    
-            <div class="image-bg2">
-            <div class="space"></div>
-            <div class="name-label2">
-            <div class="bottomleft2">Idowu
-     </div>
-      
-      <div class="bottomleft2" style="color: #da6329 ;">Technical expert</div>
-                </div>
-    
-                <!-- <div class="team-info">Thought Leader in the Healthcare and International Development space with over a
-                    decade of
-                    experience in Clinical
-                    practice, Health Systems consulting, Development programming and Entrepreneurship in Africa and
-                    Europe.</div> -->
-                <!-- <div><a href="https://platform.dpdonline.ng"><button class="learn-more-btn">View consultant</button></a> -->
+
+                <div class="teamwrap-consultants">
+
+                    <div class="team-card2-consultants">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Vincent
+                                </div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Team Lead</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2-consultants">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Muna</div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Analyst</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2-consultants2">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Hyeini</div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Associate</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2-consultants">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Idowu
+                                </div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Technical expert
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                 
+
                 </div>
             </div>
-    
-        <div class="team-card2">
-    
-            <div class="image-bg2">
-            <div class="space"></div>
-            <div class="name-label2">
-            <div class="bottomleft2">Halima
-     </div>
-      
-      <div class="bottomleft2" style="color: #da6329 ;">Administrative officer</div>
+            <div id="tab2" class="tab-content">
+                <h2>Tab 2 Content</h2>
+                <p>This is the content of Tab 2.</p>
+                <div class="h1-teams">
+                    Consultant
                 </div>
-    
-                <!-- <div class="team-info">Thought Leader in the Healthcare and International Development space with over a
-                    decade of
-                    experience in Clinical
-                    practice, Health Systems consulting, Development programming and Entrepreneurship in Africa and
-                    Europe.</div> -->
-                <!-- <div><a href="https://platform.dpdonline.ng"><button class="learn-more-btn">View consultant</button></a> -->
+
+                <div class="teamwrap">
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Vincent
+                                </div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Team Lead</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Muna</div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Analyst</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Hyeini</div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Associate</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Idowu
+                                </div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Technical expert
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space">
+
+                            </div>
+
+                            <div class="name-label2">
+                                <div class="bottomleft2">Halima
+                                </div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Administrative
+                                    officer</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Kristen</div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Content Developer</div>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
-    
-        <div class="team-card2">
-    
-            <div class="image-bg2">
-                <div class="space"></div>
-                <div class="name-label2">
-                    <div class="bottomleft2">Kristen</div>
-      
-                     <div class="bottomleft2" style="color: #da6329 ;">Content Developer</div>
+            <div id="tab3" class="tab-content">
+                <h2>Tab 3 Content</h2>
+                <p>This is the content of Tab 3.</p>
+                <div class="h1-teams">
+                    Consultant
                 </div>
-    
-                <!-- <div class="team-info">Thought Leader in the Healthcare and International Development space with over a
-                    decade of
-                    experience in Clinical
-                    practice, Health Systems consulting, Development programming and Entrepreneurship in Africa and
-                    Europe.</div> -->
-                <!-- <div><a href="https://platform.dpdonline.ng"><button class="learn-more-btn">View consultant</button></a> -->
+
+                <div class="teamwrap">
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Vincent
+                                </div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Team Lead</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Muna</div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Analyst</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Hyeini</div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Associate</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Idowu
+                                </div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Technical expert
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space">
+
+                            </div>
+
+                            <div class="name-label2">
+                                <div class="bottomleft2">Halima
+                                </div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Administrative
+                                    officer</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Kristen</div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Content Developer</div>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
-         </div>
-    
-        <div class="team-card2">
-    
-            <div class="image-bg2">
-                <div class="space"></div>
-                <div class="name-label2">
-                    <div class="bottomleft2">Hyeini</div>
-      
-      <div class="bottomleft2" style="color: #da6329 ;">Associate</div>
+            </div>
+            <div id="tab4" class="tab-content">
+                <h2>Tab 4 Content</h2>
+                <p>This is the content of Tab 4.</p>
+                <div class="h1-teams">
+                    Consultant
                 </div>
-    
-                <!-- <div class="team-info">Thought Leader in the Healthcare and International Development space with over a
-                    decade of
-                    experience in Clinical
-                    practice, Health Systems consulting, Development programming and Entrepreneurship in Africa and
-                    Europe.</div> -->
-                <!-- <div><a href="https://platform.dpdonline.ng"><button class="learn-more-btn">View consultant</button></a> -->
+
+                <div class="teamwrap">
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Vincent
+                                </div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Team Lead</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Muna</div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Analyst</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Hyeini</div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Associate</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Idowu
+                                </div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Technical expert
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space">
+
+                            </div>
+
+                            <div class="name-label2">
+                                <div class="bottomleft2">Halima
+                                </div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Administrative
+                                    officer</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="team-card2">
+
+                        <div class="image-bg2">
+                            <div class="space"></div>
+                            <div class="name-label2">
+                                <div class="bottomleft2">Kristen</div>
+
+                                <div class="bottomleft2"
+                                    style="color: #da6329 ;">Content Developer</div>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
-        </div>
-       
-    </div>
-    <div id="tab2" class="tab-content">
-        <h2>Tab 2 Content</h2>
-        <p>This is the content of Tab 2.</p>
-    </div>
-    <div id="tab3" class="tab-content">
-        <h2>Tab 3 Content</h2>
-        <p>This is the content of Tab 3.</p>
-    </div>
-</div>
+            </div>
 
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="footer-1">
-            <div class="footer-logo">
-                <img class="logo-f" src="images/footerlogo.png" alt="logo">
-            </div>
-            <div class="quicklinks">
-                <p class="footer-wh">Quick Links</p>
-                <a href="#">Privacy Policy</a>
-                <br>
-                <a href="#">Legal</a>
-                <br>
-                <a href="#">Careers</a>
-            </div>
-            <div class="address">
-                <p class="footer-wh">Address</p>
-                <small>3rd Floor, Suite 25, Vicbalkon <br>Towers, Vicbalkon Street, <br>Utako, Abuja</small>
-                <br><br>
-                <small>1007 N orange St, Wilmington, <br> DE 19801,
-                    United States</small>
 
-            </div>
-            <div class="contact">
-                <p class="footer-wh">Contact</p>
-                <small>Phone: +234 (0) 703 684 8035</small>
+
+            <!-- FOOTER -->
+            <footer>
+                <div class="footer-1">
+                    <div class="footer-logo">
+                        <img class="logo-f" src="images/footerlogo.png"
+                            alt="logo">
+                    </div>
+                    <div class="quicklinks">
+                        <p class="footer-wh">Quick Links</p>
+                        <a href="#">Privacy Policy</a>
+                        <br>
+                        <a href="#">Legal</a>
+                        <br>
+                        <a href="#">Careers</a>
+                    </div>
+                    <div class="address">
+                        <p class="footer-wh">Address</p>
+                        <small>3rd Floor, Suite 25, Vicbalkon <br>Towers,
+                            Vicbalkon Street, <br>Utako, Abuja</small>
+                        <br><br>
+                        <small>1007 N orange St, Wilmington, <br> DE 19801,
+                            United States</small>
+
+                    </div>
+                    <div class="contact">
+                        <p class="footer-wh">Contact</p>
+                        <small>Phone: +234 (0) 703 684 8035</small>
+                        <br>
+                        <small>Email: admin@dpdonline.ng</small>
+                    </div>
+                    <div class="thematic">
+                        <p class="footer-wh">Thematic Areas</p>
+                        <small>Agribusiness and Food Security</small>
+                        <br>
+                        <small>Education and Literacy</small>
+                        <br>
+                        <small> Healthcare and WASH</small>
+                        <br>
+                        <small>Climate Change and Environmental Stability</small>
+                        <br>
+                        <small>Gender & Inclusive Growth</small>
+                        <br>
+                        <small>Development Financing</small>
+                    </div>
+                </div>
                 <br>
-                <small>Email: admin@dpdonline.ng</small>
-            </div>
-            <div class="thematic">
-                <p class="footer-wh">Thematic Areas</p>
-                <small>Agribusiness and Food Security</small>
                 <br>
-                <small>Education and Literacy</small>
                 <br>
-                <small> Healthcare and WASH</small>
-                <br>
-                <small>Climate Change and Environmental Stability</small>
-                <br>
-                <small>Gender & Inclusive Growth</small>
-                <br>
-                <small>Development Financing</small>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <div class="footer-2">
-            <hr style="border : none; border-top: solid #fff;">
-            <div class="icons">
-                <!-- <ul>
+                <div class="footer-2">
+                    <hr style="border : none; border-top: solid #fff;">
+                    <div class="icons">
+                        <!-- <ul>
                     <li> -->
-                <a class="icono" href="#"><i class="fab fa-instagram"></i></a>
-                <!-- </li>
+                        <a class="icono" href="#"><i class="fab fa-instagram"></i></a>
+                        <!-- </li>
                     <li> -->
-                <a class="icono" href="#"><i class="fab fa-facebook-square"></i></a>
-                <!-- </li>
+                        <a class="icono" href="#"><i
+                                class="fab fa-facebook-square"></i></a>
+                        <!-- </li>
                     <li> -->
-                <a class="icono" href="#"><i class="fab fa-twitter"></i></a>
-                <!-- </li>
+                        <a class="icono" href="#"><i class="fab fa-twitter"></i></a>
+                        <!-- </li>
                 </ul> -->
-            </div>
-        </div>
-    </footer>
-    <!-- FOOTER ENDS -->
+                    </div>
+                </div>
+            </footer>
+            <!-- FOOTER ENDS -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap..bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
+            <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap..bundle.min.js"
+                integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+                crossorigin="anonymous"></script>
 
-    <script>
+            <script>
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
-    <script src="javascript.js"></script>
-</body>
+            <script src="javascript.js"></script>
+        </body>
 
-</html>
+    </html>
 
 </html>

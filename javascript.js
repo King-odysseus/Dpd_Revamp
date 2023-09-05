@@ -24,6 +24,9 @@ accordionItems.forEach(item => {
   });
 });
 
+
+
+
 // Function to switch between tabs
 function openTab(evt, tabName) {
   // Get all elements with class "tab-content" and hide them
