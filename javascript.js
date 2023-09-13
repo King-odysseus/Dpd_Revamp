@@ -1,13 +1,3 @@
-// const card1 = document.querySelector(".card1");
-// const customTooltip = document.getElementById("custom-tooltip");
-
-// card1.addEventListener("mouseenter", () => {
-//   customTooltip.style.display = "block";
-// });
-
-// card1.addEventListener("mouseleave", () => {
-//   customTooltip.style.display = "none";
-// });
 
 const accordionItems = document.querySelectorAll('.accordion-item');
 
@@ -49,3 +39,8 @@ function openTab(evt, tabName) {
 // Initially, show the first tab
 document.getElementById("tab1").style.display = "block";
 document.querySelector(".tab-button").classList.add("active");
+
+
+// Responsive nav Bar
+
+

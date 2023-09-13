@@ -40,6 +40,8 @@
   ); /* Adjust the alpha (0.5 in this case) to set the opacity */
 }
 
+
+/* NAVBAR STARTS */
 .nav {
   position: sticky;
   top: 0;
@@ -58,6 +60,58 @@
   cursor: pointer;
   z-index: 1;
 }
+
+/* Menu Toggle (Hamburger) */
+.menu-toggle {
+  display: none; /* Initially hide on larger screens */
+  flex-direction: column;
+  cursor: pointer;
+}
+
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff5733; /* Change color on hover */
+}
+
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px 0;
+}
+
+
+.menu-toggle {
+  display: block; /* Show the menu toggle on smaller screens */
+}
+
+
+.nav-links {
+  display: none; /* Hide the nav links on smaller screens by default */
+  flex-direction: column;
+  width: 100%;
+ 
+  padding: 15px 0;
+  position: absolute;
+  top: 60px; /* Adjust as needed */
+  left: 0;
+  z-index: 5;
+}
+
+
+
+
 
 .nav-items {
   display: flex !important;

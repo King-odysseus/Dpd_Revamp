@@ -1,0 +1,103 @@
+body,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Style for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 30px;
+}
+
+/* Logo */
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+/* Menu Toggle (Hamburger) */
+.menu-toggle {
+  display: none; /* Initially hide on larger screens */
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px 0;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff5733; /* Change color on hover */
+}
+
+/* Call to Action Buttons */
+.cta-buttons a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #ff5733;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-buttons a:hover {
+  background-color: #ff814a; /* Change background color on hover */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* Show the menu toggle on smaller screens */
+  }
+
+  .nav-links {
+    display: none; /* Hide the nav links on smaller screens by default */
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+    padding: 15px 0;
+    position: absolute;
+    top: 60px; /* Adjust as needed */
+    left: 0;
+    z-index: 5;
+  }
+
+  .nav-links.active {
+    display: block; /* Show the nav links when menu toggle is clicked */
+    flex-direction: column;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+}
