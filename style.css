@@ -41,22 +41,29 @@
 }
 
 
+
+
+
+
+
 /* NAVBAR STARTS */
-.nav {
+.navbar {
   position: sticky;
-  top: 0;
   z-index: 100;
   display: flex;
   flex-direction: row;
-  justify-content: stretch;
+  justify-content: space-between;
+  align-items: center;
   background-color: rgba(226, 226, 226, 0.5);
+  padding: 15px 15px;
   z-index: 100;
 }
+
 
 .logo {
   width: 218px;
   height: 57px;
-  margin: 23px 40px 24px 25px;
+  margin: 15px 30px 24px 18px;
   cursor: pointer;
   z-index: 1;
 }
@@ -69,12 +76,25 @@
 }
 
 
-.nav-links li {
-  margin-right: 20px;
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #1d1a1a;
+  margin: 3px 0;
 }
 
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  
+}
+
+
+
 .nav-links a {
-  color: #fff;
+  color: #2c2626;
   font-weight: bold;
   transition: color 0.3s;
 }
@@ -84,30 +104,50 @@
 }
 
 
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 3px 0;
+
+/* Call to Action Buttons */
+.cta-buttons a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #ff5733;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
-
-.menu-toggle {
-  display: block; /* Show the menu toggle on smaller screens */
+.cta-buttons a:hover {
+  background-color: #ff814a; /* Change background color on hover */
 }
 
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* Show the menu toggle on smaller screens */
+  }
 
-.nav-links {
-  display: none; /* Hide the nav links on smaller screens by default */
-  flex-direction: column;
-  width: 100%;
- 
-  padding: 15px 0;
-  position: absolute;
-  top: 60px; /* Adjust as needed */
-  left: 0;
-  z-index: 5;
+  .nav-links {
+    display: none; /* Hide the nav links on smaller screens by default */
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+    padding: 15px 0;
+    position: absolute;
+    top: 60px; /* Adjust as needed */
+    left: 0;
+    z-index: 5;
+  }
+
+  .nav-links.active {
+    display: block; /* Show the nav links when menu toggle is clicked */
+    flex-direction: column;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
 }
+
 
 
 
@@ -159,6 +199,19 @@
   line-height: normal;
   margin: 30px 25px 35px 0px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .btn3 {
   width: 138px;
