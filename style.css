@@ -311,21 +311,26 @@ NAV ENDS */
 
 
 
-@media screen and (max-width: 768px){
+
+/* MOBILE  */
+
+
+@media screen and (max-width: 768px) {
   
   .h1-section1 {
     display: flex; /* Vertically center the content */
     flex-direction: column;
     color: #404e57;
   
-    font-size: 25px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 500;
-    margin-top: 1.2em;
+    margin-top: 3em;
     margin-right: 0px;
     margin-left: 1em;
-  
-    width: 55%;
+    
+    margin-bottom: 5em;
+    width: %;
   }
   
   .h1 {
@@ -353,14 +358,38 @@ NAV ENDS */
   }
   
   #africanfaces {
-    max-width: 50%;
-    height: 50%
+    max-width: 80%;
+    height: 70%
     margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
   }
 
   
+.btn3 {
+  width: 138px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #d66233;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 1em;
+  margin-left: 4em;
+  margin-bottom: 5em;
+}
+.btn3:hover {
+  width: 138px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #303030;
+  color: #ffffff;
+}
   .caption {
     display: flex;
     color: #404e57;
@@ -370,18 +399,7 @@ NAV ENDS */
     font-weight: 400;
   }
 
-
-
-
-
 }
-
-
-
-
-
-
-
 
 
 .section2 {
@@ -423,6 +441,73 @@ NAV ENDS */
 .ellipse:hover {
   filter: drop-shadow(2px 2px 5px rgba(68, 68, 68, 0.5));
 }
+
+
+
+@media screen and (max-width: 768px){
+  .section2 {
+    position: relative;
+    height: 25rem;
+    background-color: #ffffff;
+    z-index: 2;
+  }
+  
+  #stars {
+    margin-right: 2em;
+  }
+  
+  .rating {
+    display: flex;
+    justify-content: center;
+    margin-right: 2em;
+    margin-top: 5em;
+  }
+  
+  .clients {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .ellipse {
+   
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+   
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
+    margin: 4px
+    ;
+  }
+  
+  .ellipse:hover {
+    filter: drop-shadow(2px 2px 5px rgba(68, 68, 68, 0.5));
+  }
+    .logos {
+      height: 50pxpx;
+      width: 50px;
+    }
+ 
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .section3 {
   display: flex;
