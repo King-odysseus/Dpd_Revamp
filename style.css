@@ -1700,7 +1700,8 @@ footer {
   background-image: url("images/the-challenge.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-attachment: fixed;
+  background-attachment: scroll;
+  max-height: fit-content;
  
   z-index: 3;
 }
@@ -1781,8 +1782,8 @@ footer {
 
 .image-with-text-challenge {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+
   z-index: 1;
 }
 
@@ -1801,8 +1802,9 @@ footer {
   flex-direction: column;
   background-image: url("images/the-challenge.png");
   background-repeat: no-repeat;
-  background-size: c;
-  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100%;
  
   z-index: 3;
 }
@@ -1822,13 +1824,19 @@ footer {
   ); /* Adjust the alpha (0.5 in this case) to set the opacity */
 }
 
+
+
+.african-map{
+  width: 95%;
+  margin: 20px 20px;
+}
 .map {
   padding: 1em 3em 1em 2em;
 }
 .infographics {
   display: flex;
-  flex-direction: row;
-  padding: 10em 3em 3em 3em;
+  flex-direction: column;
+  padding: 20px 20px 3px 20px;
   margin-bottom: 8em;
 }
 .accordion-header {
@@ -1863,7 +1871,7 @@ footer {
 }
 
 .accordion {
-  width: 60%;
+  width: 100%;
 }
 
 .accordion-item {
