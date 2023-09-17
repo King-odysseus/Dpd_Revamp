@@ -704,6 +704,7 @@ margin-top: 15em;
   background-attachment: scroll;
   height: 32em;
   z-index: 3;
+
 }
 
 .section4::before {
@@ -737,7 +738,7 @@ margin-top: 15em;
   font-style: normal;
   font-weight: 500;
   padding: 4em 1em 2em 2em;
-  margin-bottom: 1em;
+ 
   width: 80%;
   z-index: 1;
 }
@@ -752,6 +753,7 @@ margin-top: 15em;
   line-height: 140.023%;
   padding: 1em 3em 0 0;
   z-index: 1;
+  margin-bottom: 5em;
 }
 .highlight {
   color: #da6329;
