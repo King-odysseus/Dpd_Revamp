@@ -1604,6 +1604,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 95%;
+    max-height: fit-content;
  
   }
   .logo-f {
