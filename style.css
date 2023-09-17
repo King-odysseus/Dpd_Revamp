@@ -1586,7 +1586,7 @@ footer {
     
     background: #404e57;
     top: 5078px;
-    padding: 8em 0em 3em 0em;
+    padding: 8em 2em 3em 2em;
     margin-top: 13em;
   
     display: flex;
@@ -1597,12 +1597,14 @@ footer {
   .footer-1 {
     display: flex;
     flex-direction: column;
+    width: 95%;
     
   }
 
   .footer-2 {
     display: flex;
     flex-direction: column;
+    width: 95%;
   
  
   }
