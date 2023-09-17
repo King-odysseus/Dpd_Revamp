@@ -1016,11 +1016,6 @@ li {
 
 
 
-
-
-
-
-
 /* Section 7 */
 
 .section7 {
@@ -1135,6 +1130,146 @@ li {
   display: block;
   box-shadow: 0px 4px 4px 0px rgba(66, 1, 1, 0.25);
 }
+
+
+
+
+@media screen and (max-width: 768px){
+.section7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5em 0 5em 0;
+  height: fit-content;
+  background-color: #e6e6e6;
+
+  font-style: normal;
+  font-weight: 500;
+}
+
+.section7-header {
+  display: flex;
+  font-size: 25px;
+  padding: 0em 0 1em 0;
+  font-weight: 450px;
+  width: 95%;
+padding-left: 20px;
+  
+}
+
+
+.section7main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 95%;
+  padding-left: 20px;
+}
+
+.card1 {
+  text-align: center;
+  width: 336px;
+
+  position: relative;
+  border-radius: 20px 20px 20px 20px;
+  background: #fff;
+  margin: 1em 1em 1em 1em;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-img-top {
+  width: 336px;
+  height: 264.487px;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+}
+
+.card-title {
+  padding: 1em 0 1em 0;
+}
+
+.custom-tooltip1 {
+  text-align: left;
+  display: none;
+  position: absolute;
+  bottom: -300px; /* Adjust the distance from the card */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  width: 20em;
+  z-index: 4;
+}
+
+.custom-tooltip {
+  text-align: left;
+  display: none;
+  position: absolute;
+  bottom: -470px; /* Adjust the distance from the card */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  width: 20em;
+  z-index: 4;
+}
+
+.custom-tooltip2 {
+  text-align: left;
+  display: none;
+  position: absolute;
+  bottom: -400px; /* Adjust the distance from the card */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  width: 20em;
+  z-index: 4;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  top: -15px; /* Position above the arrow */
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent #333 transparent; /* Match the tooltip background color */
+}
+
+.card1:hover .custom-tooltip {
+  display: block;
+  box-shadow: 0px 4px 4px 0px rgba(66, 1, 1, 0.25);
+}
+.card1:hover {
+  display: block;
+  box-shadow: 4px 4px 4px 2px rgba(133, 70, 70, 0.45);
+}
+.card1:hover .custom-tooltip1 {
+  display: block;
+  box-shadow: 0px 4px 4px 0px rgba(66, 1, 1, 0.25);
+}
+.card1:hover .custom-tooltip2 {
+  display: block;
+  box-shadow: 0px 4px 4px 0px rgba(66, 1, 1, 0.25);
+}
+
+}
+
+
+
+
+
+
+
+
+
 
 .section8-header {
   text-align: center;
