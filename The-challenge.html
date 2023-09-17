@@ -15,17 +15,38 @@
 </head>
 
 <body>
-<!-- Nav Bar Begins -->
-<nav class="nav">
+   <!-- Nav Bar Begins -->
+   <nav class="navbar">
+
+    <div class="logo">
     <a href="index.html"><img class="logo" src="images\logo.png" alt="Logo" class="logo"></a>
-    <a href="The-challenge.html" class="nav-items">The Challenge</a>
-    <a href="Thematic-areas.html" class="nav-items">Thematic Areas</a>
-    <a href="teams.html" class="nav-items">Teams</a>
-    <a href="https://medium.com/@Dpdonline.ng" class="nav-items">Blog</a>
-    <div class="callbtn"></div>
-    <a href="https://platform.dpdonline.ng/auth/signup-consultant"> <button class="btn1">Become a
+</div>
+
+
+    <div class="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <nav class="nav-links">
+
+   <a href="The-challenge.html" class="nav-items">The Challenge</a> 
+   <a href="Thematic-areas.html" class="nav-items">Thematic Areas</a> 
+   <a href="teams.html" class="nav-items">Teams</a> 
+   <a href="https://medium.com/@Dpdonline.ng" class="nav-items">Blog</a> 
+
+    <div class="cta-buttons">
+        <a href="https://platform.dpdonline.ng/auth/signup-consultant"> <button class="btn1">Become a
             consultant</button></a>
     <a href="https://platform.dpdonline.ng"><button class="btn2">Hire Talent</button></a>
+
+</div>
+    </nav>
+    </nav>
+  
+  
+
 
 </nav>
 <!-- Nav Bar Ends -->
@@ -231,6 +252,26 @@
     <script>
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+
+
+
+
+    
+            // JavaScript
+// JavaScript
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.querySelector(".menu-toggle");
+  const navLinks = document.querySelector(".nav-links");
+
+  menuToggle.addEventListener("click", function () {
+      navLinks.classList.toggle("active");
+  });
+});
+
+        
+
+
     </script>
     <script src="javascript.js"></script>
 </body>
