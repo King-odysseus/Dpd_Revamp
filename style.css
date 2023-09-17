@@ -1264,17 +1264,10 @@ padding-left: 20px;
 
 
 
-
-
-
-
-
-
-
 .section8-header {
   text-align: center;
   font-size: 40px;
-  padding: 2em 0 0 0;
+  padding: 2.5em 0 0em 0;
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
@@ -1285,7 +1278,7 @@ padding-left: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 5em 0 0em 0;
+  padding: 5em 0 2em 0;
   background-color: #ffffff;
 }
 
@@ -1313,7 +1306,8 @@ padding-left: 20px;
   width: 300px;
   box-shadow: 2px 5px 10px 5px #4b4b4b3d;
   border-radius: 0px 0px 15px 15px;
-  height: 29em;
+  height: fit-content;
+  /* margin-top: 2em; */
 }
 
 .team-card:hover {
@@ -1358,6 +1352,7 @@ padding-left: 20px;
 }
 
 .team-info {
+
   width: 300px;
   padding: 10px 10px 10px 10px;
   background-color: #ffffff;
@@ -1372,6 +1367,130 @@ padding-left: 20px;
   color: #ffffff;
   font-size: 20px;
 }
+
+
+
+@media screen and (max-width: 768px){
+.section8-header {
+  margin-top: 70px;
+  margin-bottom: 150px;
+  text-align: center;
+  font-size: 40px;
+  padding: 2em 0 0 0;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.section8 {
+  max-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5em 0 10em 0;
+  background-color: #ffffff;
+  width: 95%;
+}
+
+.space {
+  padding-top: 12.3em;
+}
+
+.name-label {
+  color: #e6e6e6;
+  padding: 0.5em 0 1em 1em;
+  opacity: 0.98;
+  background: linear-gradient(
+    90.18deg,
+    rgb(30, 43, 52) -34.98%,
+    rgb(36, 45, 54) 42.64%,
+    rgba(31, 40, 49, 0) 90.95%
+
+  );
+  
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  
+  /* background-color: #ffffff; */
+  width: 300px;
+  box-shadow: 2px 5px 10px 5px #4b4b4b3d;
+  border-radius: 0px 0px 15px 15px;
+  margin-top: 80px;
+  margin-left: 50px;
+ 
+
+}
+
+.team-card:hover {
+  box-shadow: 5px 5px 5px 5px #da64293d;
+  border: none;
+}
+
+.image-bg1 {
+  background-image: url("images/emeka.jpg");
+  background-position: center center;
+  width: 300px;
+  height: 250px;
+
+  background-size: cover;
+}
+
+.image-bg4 {
+  background-image: url("images/enyi.jpg");
+  background-position: center center;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+}
+
+.image-bg3 {
+  background-image: url("images/emma.jpg");
+  background-position: center center;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+}
+/* .team-img {
+  display: flex;
+  justify-content: center;
+  width: 198.375px;
+  height: 285.303px;
+  z-index: 0;
+} */
+
+.bottomleft {
+  font-size: 20px;
+}
+
+.team-info {
+  display: none;
+  width: 300px;
+  padding: 10px 10px 10px 10px;
+  background-color: #ffffff;
+  max-height: fit-content;
+}
+
+.learn-more-btn {
+  align-items: center;
+  background-color: #d66233;
+  border-radius: 0px 0px 15px 15px;
+  width: 300px;
+  padding: 0.5em 0 0.5em 0;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+}
+
+
+
+
+
+
 
 /*footer*/
 
