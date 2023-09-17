@@ -1581,12 +1581,8 @@ footer {
   }
   
   
-  
-  
-  
-  
   footer {
-    width: 100%;
+    width: 95%;
     
     background: #404e57;
     top: 5078px;
@@ -1596,15 +1592,19 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-height: fit-content;
   }
   .footer-1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 30px;
   }
+
   .footer-2 {
-    width: 100%;
-   padding-bottom: ;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+ 
   }
   .logo-f {
     width: 165px;
