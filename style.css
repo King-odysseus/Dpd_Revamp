@@ -600,6 +600,17 @@ flex-direction: column;
 }
 
 
+#womanstats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-left: 50px ; */
+
+  width: 500px;
+  height: 600px;
+ 
+}
+
 .section3-header {
   display: flex; /* Vertically center the content */
   flex-direction: column;
@@ -609,20 +620,11 @@ flex-direction: column;
   font-weight: 500;
   padding: 1em 2em 0em 3em;
   /* margin-bottom: 1em; */
-margin-top: 15em;
+margin-top: 19em;
   z-index: 1;
 }
 
-#womanstats {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 50px ;
 
-  width: 400px;
-  height: 600px;
- 
-}
 
 .btnstats {
   
