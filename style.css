@@ -1582,7 +1582,7 @@ footer {
   
   
   footer {
-    width: 95%;
+    width: 100%;
     
     background: #404e57;
     top: 5078px;
@@ -1597,14 +1597,13 @@ footer {
   .footer-1 {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    
   }
 
   .footer-2 {
     display: flex;
     flex-direction: column;
-    width: 95%;
-    max-height: fit-content;
+  
  
   }
   .logo-f {
@@ -1673,6 +1672,25 @@ footer {
 
 
 /* The Challenge */
+
+
+
+.image-with-text-challenge {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.h1-challenge {
+  text-align: left;
+  font-size: 35px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 9em 0 3em 1em;
+  width: 75%;
+}
+
 .section1a {
   position: relative;
   display: flex;
@@ -1757,7 +1775,111 @@ footer {
 }
 
 
+/* The Challenge Resp */
 
+@media screen and (max-width: 768px){
+
+.image-with-text-challenge {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.h1-challenge {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 9em 0 3em 1em;
+  width:95%;
+}
+
+.section1a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/the-challenge.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 35em;
+  z-index: 3;
+}
+
+.section1a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    51,
+    51,
+    51,
+    0.8
+  ); /* Adjust the alpha (0.5 in this case) to set the opacity */
+}
+
+.map {
+  padding: 1em 3em 1em 2em;
+}
+.infographics {
+  display: flex;
+  flex-direction: row;
+  padding: 10em 3em 3em 3em;
+  margin-bottom: 8em;
+}
+.accordion-header {
+  padding: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion-h3 {
+  align-items: center;
+  color: #da6329;
+  text-align: left;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px; /* 181.818% */
+  cursor: pointer;
+}
+
+.accordion-icon {
+  margin: 20px 5px 5px 5px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 15px 15px 15px 15px;
+  margin-right: 3em;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+.accordion {
+  width: 60%;
+}
+
+.accordion-item {
+  border: 1px solid #ffffff;
+  margin-bottom: 5px;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px 5px rgba(156, 156, 156, 0.3);
+}
+
+.accordion-content {
+  padding: 10px 1em 1em 2em;
+  display: none;
+}
+
+
+}
 
 
 
@@ -1769,14 +1891,7 @@ h1 {
   color: #da6329;
   padding: 2em 2em;
 }
-.h1-challenge {
-  text-align: left;
-  font-size: 35px;
-  font-weight: 700;
-  color: #ffffff;
-  padding: 9em 0 3em 1em;
-  width: 75%;
-}
+
 
 .thematic-cards {
   display: flex;
