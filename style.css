@@ -1939,6 +1939,58 @@ h4 {
 }
 
 
+@media screen and (max-width: 768px){
+/* Thematic Areas Cards */
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  color: #da6329;
+ font-size: 25px;
+  width: 95%;
+}
+
+
+.thematic-cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2em 2em 2em 2em;
+  width: 95%;
+  
+  
+}
+
+.card {
+  margin: 1em 2em 5em 2em;
+  border: none;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 1px 5px 20px 5px #c2c2c2a6;
+  max-width: 20em;
+}
+.card:hover {
+  margin: 1em 2em 5em 2em;
+  border: none;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 1px 5px 10px 10px #da64293d;
+  max-width: 20em;
+}
+
+h4 {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-img {
+  border-radius: 15px 15px 15px 15px;
+}
+}
+
 
 
 
