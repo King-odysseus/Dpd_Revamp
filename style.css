@@ -604,9 +604,9 @@ flex-direction: column;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* margin-left: 50px ; */
+  margin-left: 0px ;
 
-  width: 500px;
+  width: 400px;
   height: 600px;
  
 }
@@ -620,7 +620,7 @@ flex-direction: column;
   font-weight: 500;
   padding: 1em 2em 0em 3em;
   /* margin-bottom: 1em; */
-margin-top: 19em;
+margin-top: 15em;
   z-index: 1;
 }
 
@@ -821,6 +821,49 @@ li {
   margin-bottom: 1em;
   font-size: 17px;
 }
+
+/* Section 5 Mobile  */
+@media screen and (max-width: 768px){
+.section5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  position: relative;
+  z-index: 1;
+
+  background-color: #ffff;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.service-card {
+  width: 398px;
+  height: 450px;
+
+  padding: 2em 2em 1em 2em;
+  box-shadow: 5px 5px 10px 10px #6868683d;
+  margin: 1em 2em 2em 2em;
+}
+.service-card:hover {
+  box-shadow: 5px 5px 10px 10px #da64293d;
+}
+li {
+  /* 	display: block; */
+  list-style: square;
+  list-style-position: outside;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 17px;
+}
+
+
+}
+/* Section 5 Mobile Ends  */
+
+
+
+
 
 .section6 {
   position: relative;
