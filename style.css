@@ -607,9 +607,9 @@ flex-direction: column;
   color: #ffffff;
   text-align: left;
   font-weight: 500;
-  padding: 4em 2em 0em 3em;
+  padding: 1em 2em 0em 3em;
   /* margin-bottom: 1em; */
-margin-top: 18em;
+margin-top: 15em;
   z-index: 1;
 }
 
@@ -617,8 +617,9 @@ margin-top: 18em;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 50px ;
 
-  width: 500px;
+  width: 400px;
   height: 600px;
  
 }
@@ -636,7 +637,8 @@ margin-top: 18em;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-top: 1em;
+  margin-top: 1
+0em;
   margin-left: 4em;
   
 }
@@ -651,7 +653,6 @@ margin-top: 18em;
 
 
 }
-
 
 /* MOBILE Section 3 ends */
 
@@ -719,6 +720,73 @@ margin-top: 18em;
   ); /* Adjust the alpha (0.5 in this case) to set the opacity */
   background-size: contain;
 }
+
+
+/* Section 4 Mobile  */
+@media screen and (max-width: 768px){
+
+.section4-header {
+  display: flex; /* Vertically center the content */
+  flex-direction: column;
+  font-size: 22px;
+  color: #ffffff;
+  text-align: left;
+  height: 32em;
+  font-style: normal;
+  font-weight: 500;
+  padding: 4em 1em 2em 2em;
+  margin-bottom: 1em;
+  width: 80%;
+  z-index: 1;
+}
+
+.caption-4 {
+  display: flex;
+  color: #ffffff;
+  text-align: left;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.023%;
+  padding: 1em 3em 0 0;
+  z-index: 1;
+}
+.highlight {
+  color: #da6329;
+  display: inline;
+}
+
+.section4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/section4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 32em;
+  z-index: 3;
+}
+
+.section4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.95;
+  background: rgba(36, 36, 36, 0.63); /* Adjust the alpha (0.5 in this case) to set the opacity */
+  background-size: contain;
+}
+
+}
+
+/* Section 4 Mobile  */
+
+
+
+
 
 .section5 {
   display: flex;
