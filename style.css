@@ -2067,17 +2067,111 @@ h4 {
   background-size: cover;
 }
 
-.team-bg {
-  background-image: url("images/avatar.png");
+.image-bg2 {
+  background-image: url("images/emeka.jpg");
+  background-position: center center;
+  width: 300px;
+  height: 300px;
+  border-radius: 1em 1em 1em 1em;
+  padding-top: 10px;
+  background-size: cover;
+}
+
+.team-bg1 {
+  background-image: url("images/emmaeze.jpg");
   background-position: center center;
   width: 300px;
   height: 300px;
   
-  border-radius: 1em 0em 1em 1em;
+  border-radius: 1em 1em 1em 1em;
 
   background-size: cover;
 }
 
+.team-bg3 {
+  background-image: url("images/muna.png");
+  background-position: ;
+  width: 300px;
+  height: 300px;
+ 
+  
+  border-radius: 1em 1em 1em 1em;
+
+  background-size: cover;
+}
+
+.team-bg4 {
+  background-image: url("images/halima.png");
+  background-position: ;
+  width: 300px;
+  height: 300px;
+ 
+  
+  border-radius: 1em 1em 1em 1em;
+
+  background-size: cover;
+}
+
+.team-bg5 {
+  background-image: url("images/bolaji.png");
+  background-position: ;
+  width: 300px;
+  height: 300px;
+ 
+  
+  border-radius: 1em 1em 1em 1em;
+
+  background-size: cover;
+}
+
+.team-bg6 {
+  background-image: url("images/adeola.png");
+  background-position: ;
+  width: 300px;
+  height: 300px;
+ 
+  
+  border-radius: 1em 1em 1em 1em;
+
+  background-size: cover;
+}
+
+.team-bg7 {
+  background-image: url("images/amanda.png");
+  background-position: ;
+  width: 300px;
+  height: 300px;
+ 
+  
+  border-radius: 1em 1em 1em 1em;
+
+  background-size: cover;
+}
+
+.team-bg8 {
+  background-image: url("images/bidemi.png");
+  background-position: ;
+  width: 300px;
+  height: 300px;
+ 
+  
+  border-radius: 1em 1em 1em 1em;
+
+  background-size: cover;
+}
+
+
+.team-bg9 {
+  background-image: url("images/ofor.jpeg");
+  background-position: ;
+  width: 300px;
+  height: 300px;
+ 
+  
+  border-radius: 1em 1em 1em 1em;
+
+  background-size: cover;
+}
 .bottomleft2 {
   font-size: 15px;
   font-weight: 600;
@@ -2225,6 +2319,67 @@ h4 {
 
 .team-bg4 {
   background-image: url("images/halima.png");
+  background-position: ;
+  width: 300px;
+  height: 300px;
+ 
+  
+  border-radius: 1em 1em 1em 1em;
+
+  background-size: cover;
+}
+
+.team-bg5 {
+  background-image: url("images/bolaji.png");
+  background-position: ;
+  width: 300px;
+  height: 300px;
+ 
+  
+  border-radius: 1em 1em 1em 1em;
+
+  background-size: cover;
+}
+
+.team-bg6 {
+  background-image: url("images/adeola.png");
+  background-position: ;
+  width: 300px;
+  height: 300px;
+ 
+  
+  border-radius: 1em 1em 1em 1em;
+
+  background-size: cover;
+}
+
+.team-bg7 {
+  background-image: url("images/amanda.png");
+  background-position: ;
+  width: 300px;
+  height: 300px;
+ 
+  
+  border-radius: 1em 1em 1em 1em;
+
+  background-size: cover;
+}
+
+.team-bg8 {
+  background-image: url("images/bidemi.png");
+  background-position: ;
+  width: 300px;
+  height: 300px;
+ 
+  
+  border-radius: 1em 1em 1em 1em;
+
+  background-size: cover;
+}
+
+
+.team-bg9 {
+  background-image: url("images/ofor.jpeg");
   background-position: ;
   width: 300px;
   height: 300px;
