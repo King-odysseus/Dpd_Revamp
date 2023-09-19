@@ -2112,8 +2112,20 @@ h4 {
   background-size: cover;
 }
 
+.team-bg11 {
+  background-image: url("images/sharon.jpg");
+  background-position: ;
+  width: 300px;
+  height: 300px;
+ 
+  
+  border-radius: 1em 1em 1em 1em;
+
+  background-size: cover;
+}
+
 .team-bg5 {
-  background-image: url("images/bolaji.png");
+  background-image: url("images/bolajii.png");
   background-position: ;
   width: 300px;
   height: 300px;
