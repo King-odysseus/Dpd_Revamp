@@ -1065,7 +1065,7 @@ li {
   text-align: left;
   display: none;
   position: absolute;
-  bottom: -300px; /* Adjust the distance from the card */
+  bottom: -480px; /* Adjust the distance from the card */
   left: 50%;
   transform: translateX(-50%);
   background-color: #333;
@@ -1080,7 +1080,7 @@ li {
   text-align: left;
   display: none;
   position: absolute;
-  bottom: -470px; /* Adjust the distance from the card */
+  bottom: -400px; /* Adjust the distance from the card */
   left: 50%;
   transform: translateX(-50%);
   background-color: #333;
@@ -1095,7 +1095,7 @@ li {
   text-align: left;
   display: none;
   position: absolute;
-  bottom: -400px; /* Adjust the distance from the card */
+  bottom: -300px; /* Adjust the distance from the card */
   left: 50%;
   transform: translateX(-50%);
   background-color: #333;
